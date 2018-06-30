@@ -57,3 +57,6 @@ public/
 
 # Bundle stats
 bundle-stats.json
+
+# Site Configuration
+data/SiteConfig.js

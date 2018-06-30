@@ -29,6 +29,7 @@
     "react": "^16.2.0",
     "react-disqus-comments": "^1.1.1",
     "react-dom": "^16.2.0",
+    "react-google-tag-manager": "^2.2.1",
     "react-helmet": "^5.2.0",
     "react-share": "^2.0.0",
     "react-twitter-widgets": "^1.7.1"

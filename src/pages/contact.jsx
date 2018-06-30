@@ -1,19 +1,19 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
-import About from "../components/About/About";
+import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import config from "../../data/SiteConfig";
 
-class AboutPage extends Component {
+class ContactPage extends Component {
   render() {
     return (
-      <div className="about-container">
-        <Helmet title={`About | ${config.siteTitle}`} />
-        <About />
+      <div className="contact-container">
+        <Helmet title={`Contact | ${config.siteTitle}`} />
+        <Contact />
         <Footer config={config} />
       </div>
     );
   }
 }
 
-export default AboutPage;
+export default ContactPage;

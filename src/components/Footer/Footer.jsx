@@ -5,7 +5,10 @@ import "./Footer.css";
 
 class Footer extends Component {
   render() {
+
     const { config } = this.props;
+    console.log( 'config', config );
+    console.log( 'this.props', this.props );
     const url = config.siteRss;
     const copyright = config.copyright;
     if (!copyright) {
